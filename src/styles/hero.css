@@ -1,0 +1,131 @@
+/* ===========================
+   HERO SECTION (Desktop)
+   =========================== */
+.hero-section {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(37, 34, 34, 0.7)),url("../images/constrbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 85vh;
+  display: flex;
+  align-items: flex-end;   /* push content to bottom */
+  padding: 60px 50px;      /* spacing from edges */
+  color: white;
+  background-attachment: fixed;
+}
+
+.hero-sectionbg{
+   background-image: linear-gradient(rgba(169, 164, 164, 0.8), rgba(199, 197, 197, 0.3)),url("../images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   /* padding: 60px 50px;  */
+   height: 45vh;
+   display: flex;
+  align-items: flex-end; 
+  padding: 60px 50px; 
+}
+
+.hero-sectionbg2{
+   background-image: linear-gradient(rgba(169, 164, 164, 0.8), rgba(199, 197, 197, 0.3)),url("../images/contactbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   /* padding: 60px 50px;  */
+   height: 45vh;
+   display: flex;
+  align-items: flex-end; 
+  padding: 60px 50px; 
+}
+
+/* Text Container */
+.hero-content {
+  max-width: 650px;
+}
+
+/* Subheading */
+.hero-welcome {
+  letter-spacing: 3px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+/* Main Heading */
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+/* Dot in Red */
+.hero-dot {
+  color: #e63946;
+}
+
+.about-font{
+  font-size: 19px;
+  font-weight: 600;
+}
+.font1{
+  font-size: 22px;
+  font-weight: 600;
+}
+.font2{
+  font-size: 19px;
+}
+/* Description Text */
+.hero-desc {
+  margin: 15px 0 30px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+  background: #e63946;
+  color: white;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background: #b72832;
+}
+
+
+/* ===========================
+   MOBILE RESPONSIVE
+   =========================== */
+@media (max-width: 768px) {
+  .font1{
+  font-size: 19px;
+  font-weight: 600;
+}
+.font2{
+  font-size: 17px;
+}
+  .hero-section {
+    height: 60vh;             /* shorter hero for mobile */
+    background-attachment: scroll; /* fix mobile jitter */
+    padding: 20px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .learn-more-btn {
+    padding: 10px 22px;
+    font-size: 0.9rem;
+  }
+}

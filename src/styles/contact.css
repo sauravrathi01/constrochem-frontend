@@ -1,0 +1,99 @@
+.contact-section {
+  background: #f3f6fc;
+}
+
+/* Left side */
+.contact-tag {
+  color: #ff4d4d;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 47px;
+  color: #172B56;
+}
+
+.contact-desc{
+    font-size: 20px;
+}
+
+
+.contact-phone {
+  color: #0b1b3f;
+  font-weight: 700;
+}
+
+.info-head {
+  font-weight: 600;
+  font-size: 20px;
+  color: #0b1b3f;
+}
+
+.info-text {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Right side form */
+.contact-input {
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #d8dfe8;
+  padding-left: 20px;
+}
+
+.contact-input:focus {
+  border-color: #ff4d4d;
+  box-shadow: none;
+}
+
+textarea.contact-input {
+  height: auto;
+  padding: 20px;
+}
+
+/* fake recaptcha */
+.recaptcha-box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d8dfe8;
+}
+
+.recaptcha-placeholder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #444;
+}
+
+/* submit button */
+.submit-btn {
+  width: 100%;
+  background: #ff4d4d;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+  background: #e63a3a;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 32px;
+  }
+
+  .support-img {
+    width: 55px;
+    height: 55px;
+  }
+}

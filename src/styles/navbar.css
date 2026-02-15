@@ -1,0 +1,119 @@
+/* NAVBAR */
+.custom-navbar {
+  background: #071d34;
+  padding: 15px 0;
+  z-index: 9999;
+  position: relative;
+}
+
+.custom-logoimg{
+  width: 300px;
+}
+
+/* Fix spacing for the Products title */
+.product-menu-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* CUSTOM HOVER DROPDOWN */
+.hover-dropdown .custom-dropdown {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 280px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: #071d34;
+  border-top: 3px solid #e63946;
+  padding: 0;
+  z-index: 9999;
+}
+
+
+.nav-link{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+ color: #e63946 !important;
+}
+
+
+/* DROPDOWN ITEM */
+.custom-dropdown-item {
+  display: block;
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  transition: background 0.2s ease-in-out;
+}
+
+.custom-dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Scrollbar styling */
+.custom-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-dropdown::-webkit-scrollbar-thumb {
+  background: #ffffff60;
+  border-radius: 10px;
+}
+
+.custom-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.navbar-collapse {
+  transition: height 0.3s ease;
+}
+
+
+@media (min-width: 992px) {
+  .hover-dropdown:hover .custom-dropdown {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+
+/* FIX: Allow Bootstrap collapse to close properly on mobile */
+@media (max-width: 991px) {
+
+  .navbar-collapse {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hover-dropdown .custom-dropdown {
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    width: 100%;
+    max-height: none;
+  }
+}
+
+
+@media (max-width: 768px){
+.custom-logoimg{
+  width: 180px;
+}
+}
+
+
