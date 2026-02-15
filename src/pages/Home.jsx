@@ -1,6 +1,6 @@
 import AboutContent from "../components/AboutContent";
 import ContactContent from "../components/ContactContent";
-import HeroSection from "../components/Herosection";
+import HeroSection from "../components/HeroSection";
 import solutions from "../images/solutions.jpg";
 import WhyChooseUs from "../components/WhyChooseUs";
 
