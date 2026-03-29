@@ -13,16 +13,16 @@ const Footer = () => {
 
             <div className="col-md-4 d-flex ">
               <i className="fas fa-map-marker-alt fs-2 me-3 icon-clr"></i>
-              <p className="footer-top-text">
-                Block no. A-19, Lane no. 12,<br />
-                Behind Ranka hospital, Opp. ARMS Academy<br />
-                Mukund Nagar, Swargate, Pune 411037.
+              <p className="footer">
+                Sk Complex, Beed Bypass Rd, opposite <br />
+                shahi bhoj hotel Satara Deolai Parisar, <br />
+                Chhatrapati Sambhajinagar, MH 431005.
               </p>
             </div>
 
             <div className="col-md-4 d-flex ">
               <i className="fas fa-envelope fs-2 me-3 icon-clr"></i>
-              <p className="footer-top-text">
+              <p className="footer">
                 Email us :<br />
                 <a href="mailto:sales@satiates.in" className="footer-link1">akalankkala1111@gmail.com</a>
               </p>
@@ -30,7 +30,7 @@ const Footer = () => {
 
             <div className="col-md-4 d-flex ">
              <i className="fas fa-phone fs-2 me-3 icon-clr"></i>
-              <p className="footer-top-text">
+              <p className="footer">
                 Call us on :<br />
                 +91 9403169008<br />
               </p>

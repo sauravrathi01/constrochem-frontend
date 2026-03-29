@@ -33,8 +33,8 @@ const ContactContent = () => {
             <div className="mt-4 contact-info-block">
               <p className="info-head mb-0">Head office</p>
               <p className="info-text">
-                Block no. A-19, Lane no. 12, Behind Ranka hospital, Opp. ARMS
-                Academy Mukund Nagar, Swargate, Pune 411037.
+                Sk Complex, Beed Bypass Rd, opposite shahi bhoj hotel
+                Satara Deolai Parisar, Chhatrapati Sambhajinagar, MH 431005.
               </p>
             </div>
           </div>

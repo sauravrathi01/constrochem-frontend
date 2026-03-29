@@ -30,7 +30,7 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-md-5 py-3 bg-light">
       <div className="container">
         {/* Heading */}
         <div className="text-center mb-5">
@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
           <div
             className="mx-auto mt-2"
             style={{ width: "100px", height: "4px", backgroundColor: "#f97316" }}
-          ></div>
+          ></div>   
         </div>
 
         <div className="row align-items-center">
